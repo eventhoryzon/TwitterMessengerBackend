@@ -1,6 +1,6 @@
 module.exports = {
 
-    database: 'mongodb://localhost:27017/TwitterMessengerBackend',
+    database: 'mongodb://shazib:shazib1@ds153700.mlab.com:53700/twittermessengerbackend',
     secret: 'twitter_secret',
  
     // Your Twilio account SID and auth token, both found at: https://www.twilio.com/user/account
@@ -12,4 +12,5 @@ module.exports = {
     authyKey : 'j9JxCNgzlnvcAwj8e9GehnKctDLtnJ1i',
     // Enable SMS 2FA processes
     enableValidationSMS : 1
+    
 }

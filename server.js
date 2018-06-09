@@ -9,6 +9,7 @@ var multer = require('multer');
 var nodemailer = require('nodemailer');
 var mg = require('nodemailer-mailgun-transport');
 config = require('./config/config'); 
+auth = require('./config/auth');
 passport = require('passport');
 
 require('./model/db');
